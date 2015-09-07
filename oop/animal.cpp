@@ -1,4 +1,4 @@
-#include "Chicken.h"
+#include "chicken.h"
 int main(){
     Muji rose;
     Gongji jack;
@@ -6,6 +6,7 @@ int main(){
     jack.damin();
     jack.zhuixiaoji();
     jack.baoage();
-    rose.damin();
+    Chicken *p = &rose;
+    p->damin();
     return 0;
 }
